@@ -47,6 +47,13 @@ Build an end-to-end system where inventors can submit PDF documents and have the
 
 6. **Database** – An initial schema is provided in `db/schema.sql`. Extend it as needed to store all extracted information.
 
+   To modify the schema, simply edit `db/schema.sql` and restart with:
+
+   ```shell
+   docker compose down -v
+   docker compose up
+   ```
+
 7. **SOLUTION.md** – Document:
    - How to run the project (step-by-step)
    - Key technical decisions and trade-offs you made
@@ -64,6 +71,7 @@ Feel free to add features or improvements you think would benefit these users.
 
 ### Out of scope
 
+- Database migrations
 - UI design and styling
 - Test coverage
 
