@@ -84,13 +84,11 @@ This repo includes:
 - Docker Compose setup with PostgreSQL and predefined schema in `db/`
 - Sample PDF documents in `docs/`
 
-**Note on API keys**: A Gemini API key is not included in this template. If you'd like to use Gemini and need an API key, please ask us and we can provide one.
-
 You're free to add libraries, modify the setup, or use different tools entirely. Use whatever approach works best for you—AI models for extraction, specific libraries for PDF parsing, or any other solutions you find appropriate.
 
 If you use coding assistants or other AI tools during development, that's completely fine. We're interested in your architectural decisions and how you apply these tools effectively.
 
-What matters is that we can run your project by following your SOLUTION.md.
+**Important**: Please review all code in your submission and ensure you understand what every line does. Focus on doing less with high quality rather than more with inconsistencies.
 
 ## Time Expectation
 
